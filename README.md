@@ -15,12 +15,12 @@ The goal is to treat compliance as a repeatable engineering outcome, not a manua
 ## Scope
 
 This repository supports:
-	-	Zone & conduit modeling
-	-	Control intent documentation
-	-	Security requirement traceability
-	-	Evidence tracking via IDs
-	-	CI/CD validation workflows
-	-	Infrastructure compliance automation
+- Zone & conduit modeling
+- Control intent documentation
+- Security requirement traceability
+- Evidence tracking via IDs
+- CI/CD validation workflows
+- Infrastructure compliance automation
 
 It is intentionally generic and sanitized for use in public repositories.
 
