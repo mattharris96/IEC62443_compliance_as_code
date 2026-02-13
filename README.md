@@ -4,11 +4,11 @@ Infrastructure-as-Code and Policy-as-Code patterns for implementing and evidenci
 ## Purpose
 
 This repository provides a structured, automatable approach to aligning systems and architectures with the IEC 62443 series by:
-	-	Defining zones and conduits as code
-	-	Mapping technical controls to IEC 62443 requirements
-	-	Generating machine-verifiable evidence
-	-	Supporting continuous compliance validation
-	-	Enabling secure SDLC and infrastructure deployment pipelines
+	- Defining zones and conduits as code
+	- Mapping technical controls to IEC 62443 requirements
+	- Generating machine-verifiable evidence
+	- Supporting continuous compliance validation
+	- Enabling secure SDLC and infrastructure deployment pipelines
 
 The goal is to treat compliance as a repeatable engineering outcome, not a manual audit exercise.
 
