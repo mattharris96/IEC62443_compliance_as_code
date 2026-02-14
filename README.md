@@ -29,10 +29,10 @@ Sensitive diagrams, configurations, and audit artefacts should be stored private
 ## Standards Alignment
 
 This project aligns with the IEC 62443 series, including:
-	•	IEC 62443-2-x – Security program requirements
-	•	IEC 62443-3-2 – Risk assessment & system requirements
-	•	IEC 62443-3-3 – System security requirements and security levels
-	•	IEC 62443-4-x – Component and development requirements
+- IEC 62443-2-x – Security program requirements
+- IEC 62443-3-2 – Risk assessment & system requirements
+- IEC 62443-3-3 – System security requirements and security levels
+- IEC 62443-4-x – Component and development requirements
 
 The repository structure is designed to support traceability between:
 
