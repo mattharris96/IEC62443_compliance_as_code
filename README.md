@@ -49,13 +49,13 @@ The repository structure is designed to support traceability between:
 ## Zones & Conduits Model
 
 Security architecture is defined using a zone-and-conduit model:
-	•	Zones represent trust boundaries
-	•	Conduits define controlled communication paths
-	•	Each conduit includes:
-	•	Purpose
-	•	Allowed services
-	•	Security controls
-	•	Evidence references
+- Zones represent trust boundaries
+- Conduits define controlled communication paths
+- Each conduit includes:
+- Purpose
+- Allowed services
+- Security controls
+- Evidence references
 
 Example (Mermaid):
 
