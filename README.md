@@ -95,7 +95,7 @@ Compliance Status Report
 ## Evidence Handling
 
 This is a public repository.
-- Do NOT store:
+Do NOT store:
 - Live network diagrams
 - IP addresses
 - Hostnames
