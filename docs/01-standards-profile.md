@@ -158,12 +158,12 @@ Sensitive compliance artifacts must be stored in secure systems.
 
 This standards profile:
 
-✔ Defines structure for IEC 62443 alignment
-✔ Enables repeatable compliance engineering
-✔ Supports traceable automation
+✔ Defines structure for IEC 62443 alignment  
+✔ Enables repeatable compliance engineering  
+✔ Supports traceable automation  
 
 It does not:
 
-✖ Perform risk assessment (see 04-risk-assumptions.md)
-✖ Guarantee certification
-✖ Replace formal audit
+✖ Perform risk assessment (see 04-risk-assumptions.md)  
+✖ Guarantee certification  
+✖ Replace formal audit  
