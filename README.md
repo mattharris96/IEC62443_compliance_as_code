@@ -58,11 +58,11 @@ Security architecture is defined using a zone-and-conduit model:
 - Evidence references
 
 Example (Mermaid):
-
+```mermaid
 flowchart LR
   IT -->|C-01 Auth| DMZ
   DMZ -->|C-05 Supervised Control| OT
-
+```
 🧾 Control Traceability
 
 Each control includes:
