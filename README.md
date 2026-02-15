@@ -37,14 +37,14 @@ This project aligns with the IEC 62443 series, including:
 The repository structure is designed to support traceability between:
 
 ## Design Principles
-	•	Zero Trust between zones
-	•	Explicitly defined conduits
-	•	Least privilege enforcement
-	•	Strong authentication & authorization
-	•	Segmentation & protocol allowlisting
-	•	Auditability by design
-	•	Immutable infrastructure patterns
-	•	Continuous verification
+- Zero Trust between zones
+- Explicitly defined conduits
+- Least privilege enforcement
+- Strong authentication & authorization
+- Segmentation & protocol allowlisting
+- Auditability by design
+- Immutable infrastructure patterns
+- Continuous verification
 
 ## Zones & Conduits Model
 
