@@ -63,56 +63,54 @@ flowchart LR
   IT -->|C-01 Auth| DMZ
   DMZ -->|C-05 Supervised Control| OT
 ```
-🧾 Control Traceability
-
-Each control includes:
-	•	Control ID
-	•	IEC 62443 reference
-	•	Security Level target
-	•	Technical implementation
-	•	Validation method
-	•	Evidence ID(s)
-
 ## Automation Approach
 
 Compliance validation can be integrated into CI/CD pipelines:
-	•	Infrastructure scanning
-	•	Policy linting
-	•	Configuration validation
-	•	Drift detection
-	•	Evidence artifact generation
+- Infrastructure scanning
+- Policy linting
+- Configuration validation
+- Drift detection
+- Evidence artifact generation
 
 Example workflow:
 
-Code Commit
-   ↓
-Pipeline Validation
-   ↓
-Control Mapping Check
-   ↓
-Evidence Artifact Generated
-   ↓
+Code Commit  
+
+   ↓  
+   
+Pipeline Validation  
+
+   ↓  
+   
+Control Mapping Check  
+
+   ↓  
+   
+Evidence Artifact Generated  
+
+   ↓  
+   
 Compliance Status Report
 
 ## Evidence Handling
 
 This is a public repository.
-	•	Do NOT store:
-	•	Live network diagrams
-	•	IP addresses
-	•	Hostnames
-	•	Credentials
-	•	Audit artefacts
-	•	Store sensitive artefacts in private storage
-	•	Reference them using Evidence IDs only
+- Do NOT store:
+- Live network diagrams
+- IP addresses
+- Hostnames
+- Credentials
+- Audit artefacts
+- Store sensitive artefacts in private storage
+- Reference them using Evidence IDs only
 
 ## Contribution Guidelines
-	•	Keep all examples generic and sanitized
-	•	Avoid vendor-specific confidential details
-	•	Use evidence references instead of sensitive data
-	•	Maintain traceability to IEC 62443 requirements
+- Keep all examples generic and sanitized
+- Avoid vendor-specific confidential details
+- Use evidence references instead of sensitive data
+- Maintain traceability to IEC 62443 requirements
 
-⚠️ Disclaimer
+!! Disclaimer !!
 
 This repository provides engineering patterns to support IEC 62443 alignment.
 It does not replace formal certification, risk assessment, or third-party audit processes.
