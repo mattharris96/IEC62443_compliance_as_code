@@ -55,12 +55,6 @@ A complete audit pack should contain the following sections.
 - Control coverage summary
 - Known gaps or remediation items
 - Statement of residual risk (if applicable)
-
-Source inputs:
-- `00-scope.md`
-- `03-security-level-targets.md`
-- Mapping status file
-
 ---
 
 ### 3.2 System Definition & Architecture
@@ -71,9 +65,6 @@ Artifacts:
 - Conduit register
 - Sanitized architecture diagrams
 - Trust boundary descriptions
-
-Source:
-- `02-zones-and-conduits.md`
 
 Evidence references:
 - Diagram Evidence IDs
@@ -90,10 +81,6 @@ Artifacts:
 - Impact classification model
 - SL-T derivation logic
 
-Source:
-- `04-risk-assumptions.md`
-- `03-security-level-targets.md`
-
 Note:
 Detailed risk scoring remains outside this public repository.
 
@@ -107,10 +94,6 @@ Artifacts:
 - FR/SR reference model
 - Security Level interpretation model
 - Mapping methodology
-
-Source:
-- `01-standards-profile.md`
-
 ---
 
 ### 3.5 Control Catalog
@@ -122,9 +105,6 @@ Artifacts:
 - FR/SR mappings
 - Implementation references
 - Evidence types
-
-Source:
-- `controls/controls-catalog.yml`
 
 This section demonstrates how requirements are translated into enforceable engineering controls.
 
@@ -138,9 +118,6 @@ Artifacts:
 - Status indicators (Planned / In Progress / Implemented / Verified)
 - Control ownership
 - Notes on deviations
-
-Source:
-- `mapping/mapping-template.csv`
 
 This matrix is central to audit traceability.
 
@@ -156,10 +133,6 @@ For each control:
 - Validation results
 - Test artifacts
 - Change records
-
-Source:
-- Automation outputs
-- `evidence/evidence-index.md`
 
 Evidence index must include:
 
@@ -199,11 +172,6 @@ Artifacts:
 - SL-A determination evidence
 - Control coverage confirmation
 - Gap analysis (if SL-A < SL-T)
-
-Source:
-- `03-security-level-targets.md`
-- Mapping file
-- Automation reports
 
 ---
 
